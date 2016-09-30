@@ -13,4 +13,4 @@ function AddDebug()
   execute "normal obinding.pry\<Esc>"
 endfunction
 
-map <leader>b call AddDebug()
+map <leader>b :call AddDebug()<cr>
